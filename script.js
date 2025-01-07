@@ -1,9 +1,9 @@
 (function() {
     'use strict';
  
-    let aimbotEnabled = false;
+    let aimbotEnabled = true;
     let uiVisible = true;
-    let enemies = [];
+    let enemies = [true];
     const crosshair = document.querySelector('.game-crosshair'); // Assume we know this is static
 
     // Create the UI
